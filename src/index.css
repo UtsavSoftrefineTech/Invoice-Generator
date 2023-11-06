@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+
+    @screen sm {
+      font-size: 14px;
+    }
+
+    @screen md {
+      font-size: 16px;
+    }
+  }
+
+  body {
+    background-color: #eef1f4;
+  }
+}
